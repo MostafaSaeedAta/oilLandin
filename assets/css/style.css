@@ -1,50 +1,7 @@
-/***************************************************************************************************************
-||||||||||||||||||||||||||       MASTER STYLESHEET FOR Al Wadian           ||||||||||||||||||||||||||||||||||||||||
-****************************************************************************************************************
-||||||||||||||||||||||||||                TABLE OF CONTENT               |||||||||||||||||||||||||||||||||||||||
-****************************************************************************************************************
-****************************************************************************************************************
-
-01. Imported styles
-02. Flaticon reset styles
-03. Header styles
-04. Mainmenu styles
-05. Rev_slider_wrapper styles
-66. Call to action area Style
-07. Categories area style
-08. Fact counter area style
-09. Latest Blog area style
-10. Latest blog area style 
-11. Testimonial area style
-12. Brand area style
-13. Single service style
-14. Pricing table area style
-15. About page style
-16. Account page style
-17. 404 page style style
-18. Blog page style
-19. Blog single style
-20. Contact page style
-
-****************************************************************************************************************
-||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
-****************************************************************************************************************/
-
-
-
-
-
+  
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-
-
-
-
-
-
-
+ 
 
 @import url(../css/animate.css);
 @import url(../css/bootstrap-select.min.css);
@@ -893,7 +850,7 @@ li{
     top: 0;
     width: 100%;
     height: 100%;
-    background: #2739a7;
+    background: #c0bb262d;
 }
 
 
@@ -1339,7 +1296,7 @@ select:focus {
 	height: 100%;
 	max-height: 100%;
 	overflow-y: auto;
-	background: #000000;
+	background: #ffffff;
 	padding: 0px 0px;
 	z-index: 5;
 	opacity: 0;
@@ -1399,7 +1356,7 @@ select:focus {
 .mobile-menu .navigation li{
 	position: relative;
 	display: block;
-	border-top: 1px solid rgba(255,255,255,0.10);
+	border-top: 1px solid rgba(73, 73, 73, 0.1);
 }
 .mobile-menu .navigation:last-child{
 	border-bottom: 1px solid rgba(255,255,255,0.10);
@@ -1411,7 +1368,7 @@ select:focus {
 	position: relative;
 	display: block;
 	padding: 10px 25px;
-	color: #ffffff;
+	color: #3b3b3b;
 	font-size: 15px;
 	line-height: 24px;
 	font-weight: 600;
@@ -2671,3 +2628,13 @@ select:focus {
     padding-left: 40px;
     padding-right: 40px;
 }
+
+
+ .rtl .owl-stage-outer {
+    direction: ltr !important;
+ }
+
+
+ .rtl .main-menu .navigation {
+    padding: 0 6px;
+ }

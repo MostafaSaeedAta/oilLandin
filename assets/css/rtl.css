@@ -22,13 +22,14 @@
 }
 
 button.rtl{
-  background: rgba(0, 0, 0, 0.90);
+  background: rgb(195 191 191 / 42%);
   display: block;
   text-indent: inherit;
   font-size: 12px;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 52px;
+  height: 40px;
+  border-radius: 12px;
+  line-height: 40px;
   text-align: center;
   font-weight: 700;
   margin: 0px;
@@ -44,15 +45,16 @@ button.rtl{
 }
 
 button.ltr {
-  background: rgba(0, 0, 0, 0.90);
+  background: rgb(195 191 191 / 42%);
   display: block;
   text-indent: inherit;
   font-size: 12px;
-  font-weight: 700;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 52px;
+  height: 40px;
+  border-radius: 12px;
+  line-height: 40px;
   text-align: center;
+  font-weight: 700;
   margin: 0px;
   color: #fff !important;
 }

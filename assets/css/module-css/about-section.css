@@ -427,14 +427,18 @@
     display: block;
     max-width: 535px;
     width: 100%;
+    height: 100%;
 }
 .about-style3_image_box .inner{
     position: relative;
     display: block;
     overflow: hidden;
+    height: 100%;
 }
 .about-style3_image_box .inner img{
     width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 
 .about-style3_image_box .icon-Outer{

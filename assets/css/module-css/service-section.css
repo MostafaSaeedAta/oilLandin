@@ -466,9 +466,10 @@
     z-index: -1;
 }
 .service-style3_carousel.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"] {
-    background: transparent;
-    border: 1px solid #222222;
-    color: #222222;
+    background: #0000002b;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    border-radius: 17px;
 }
 .service-style3_carousel.owl-nav-style-one.owl-theme .owl-nav .owl-prev {
     float: left;
