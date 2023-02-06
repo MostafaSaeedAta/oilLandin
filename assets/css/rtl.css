@@ -15,6 +15,21 @@ h1, h2, h3, h4, h5, h6 , .main-menu .navigation>li>a {
     display: none;
 }
 
+.footer-left-box {
+  position: unset !important;
+    display: block !important;
+    margin-left: 60px !important;
+    margin-right: -110px !important;
+    padding-top: 55px !important;
+    padding-right: 80px !important;
+    padding-bottom: 15px !important;
+    z-index: 0 !important;
+}
+
+.footer-bottom{
+  justify-content: center !important;
+}
+
 .rtl {
   direction: rtl; 
 }
@@ -23,35 +38,17 @@ h1, h2, h3, h4, h5, h6 , .main-menu .navigation>li>a {
   direction: ltr; 
 }
 
-.demo-rtl{
-  position: fixed;
-  top: 300px;
-  left: 0;
-  z-index: 9999;
+.header-style3_left .logo {
+  padding-right: 35px; 
+  padding-left: unset;
 }
 
-button.rtl{
-  background: rgb(195 191 191 / 42%);
-  display: block;
-  text-indent: inherit;
-  font-size: 12px;
-  width: 52px;
-  height: 40px;
-  border-radius: 12px;
-  line-height: 40px;
-  text-align: center;
-  font-weight: 700;
-  margin: 0px;
-  color: #fff !important;
+.header-contact-info2 ul li span::before {
+  margin-left: 8px;
+  margin-right: unset;
 }
 
-.demo-ltr{
-  position: fixed;
-  top: 300px;
-  left: auto;
-  right: 0;
-  z-index: 9999;
-}
+
 
 .single-footer-widget .title::before {
   right: -30px !important;
@@ -71,33 +68,7 @@ button.rtl{
   padding: 0 8px;
 }
 
-button.ltr {
-  background: rgb(195 191 191 / 42%);
-  display: block;
-  text-indent: inherit;
-  font-size: 12px;
-  width: 52px;
-  height: 40px;
-  border-radius: 12px;
-  line-height: 40px;
-  text-align: center;
-  font-weight: 700;
-  margin: 0px;
-  color: #fff !important;
-}
 
-.boxed_wrapper.ltr .demo-rtl{
-  display: block;
-}
-.boxed_wrapper.ltr .demo-ltr{
-  display: none;
-}
-.boxed_wrapper.rtl .demo-rtl{
-  display: none;
-}
-.boxed_wrapper.rtl .demo-ltr{
-  display: block;
-}
 
 .rtl .pull-left{
   float: right;

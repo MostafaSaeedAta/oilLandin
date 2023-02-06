@@ -39,7 +39,63 @@
 @import url(../css/module-css/slogan-section.css);
 @import url(../css/module-css/partner-section.css);
 
+.demo-rtl{
+  position: fixed;
+  top: 300px;
+  left: 0;
+  z-index: 9999;
+}
 
+button.rtl{
+  background: rgb(195 191 191 / 42%);
+  display: block;
+  text-indent: inherit;
+  font-size: 12px;
+  width: 52px;
+  height: 40px;
+  border-radius: 12px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 700;
+  margin: 0px;
+  color: #fff !important;
+}
+
+.demo-ltr{
+  position: fixed;
+  top: 300px;
+  left: auto;
+  right: 0;
+  z-index: 9999;
+}
+
+button.ltr {
+    background: rgb(195 191 191 / 42%);
+    display: block;
+    text-indent: inherit;
+    font-size: 12px;
+    width: 52px;
+    height: 40px;
+    border-radius: 12px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0px;
+    color: #fff !important;
+  }
+  
+  .boxed_wrapper.ltr .demo-rtl{
+    display: block;
+  }
+  .boxed_wrapper.ltr .demo-ltr{
+    display: none;
+  }
+  .boxed_wrapper.rtl .demo-rtl{
+    display: none;
+  }
+  .boxed_wrapper.rtl .demo-ltr{
+    display: block;
+  }
 
 
 /*==============================================

@@ -1543,11 +1543,12 @@
 
 /* Footer Area Css */  
 .footer-left-box {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-top: 110px;
-    padding-right: 30px;
-    padding-bottom: 110px;
+    display: none !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 110px !important;
+    padding-right: 30px !important;
+    padding-bottom: 110px !important;
 }
 .footer-social-links {
     align-items: center;
@@ -1564,8 +1565,7 @@
 .footer-rigth-box {
     margin-left: 0px;
     padding-top: 110px;
-    padding-bottom: 110px;
-}
+ }
 
 .single-footer-widget.marbtm50{
     margin-bottom: 50px;
