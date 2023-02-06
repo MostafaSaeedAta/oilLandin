@@ -1,6 +1,15 @@
-
-
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&display=swap');
+ 
 /** template rtl css **/
+
+body {
+  font-family: 'Cairo', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 , .main-menu .navigation>li>a {
+  font-family: inherit !important;
+}
 
 .page_direction{
     display: none;
@@ -42,6 +51,24 @@ button.rtl{
   left: auto;
   right: 0;
   z-index: 9999;
+}
+
+.single-footer-widget .title::before {
+  right: -30px !important;
+  left: unset !important;
+}
+
+.single-footer-widget .footer-contact-info ul li .icon {
+  left: unset !important;
+  right: 0px;
+}
+.single-footer-widget .footer-contact-info ul li {
+  padding-left: unset !important;
+  padding-right: 40px;
+}
+
+.sec-title .sub-title h5 {
+  padding: 0 8px;
 }
 
 button.ltr {
