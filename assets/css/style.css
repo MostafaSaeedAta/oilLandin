@@ -46,6 +46,10 @@
   z-index: 9999;
 }
 
+.sticky-header .navigation .current a{
+    color: #ffca28 !important;
+}
+
 button.rtl{
   background: rgb(195 191 191 / 42%);
   display: block;

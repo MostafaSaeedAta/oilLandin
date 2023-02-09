@@ -415,6 +415,7 @@
     width: 100%;
     transition: all 200ms linear;
     transition-delay: 0.1s;
+    height: 260px;
 }
 .single-service-style3:hover .img-holder .inner img{
     transform: scale(1.2);
@@ -426,7 +427,7 @@
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 38px 30px 45px;
+    padding: 20px 30px 45px;
 }
 .single-service-style3 .text-holder h2{
     color: #222222;
